@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="container">
+    <div  class="flex-container">
+    <div>
+    <label>DAY</label>
+    <br>
+    <input placeholder="DD" id="DAY">
+    <br>
+    <span id="error" class="DAY"></span>
+    </div>
+    <div>
+    <label>MONTH</label>
+    <br>
+    <input placeholder="MM" id="MONTH">
+    <br>
+    <span id="error"></span>
+  </div>
+  <div>
+    <label>YEAR</label>
+    <br>
+    <input  placeholder="YYYY" id="YEAR">
+    <br>
+    <span id="error"></span>
+  </div>
+</div>
+
+<DIV id="but"><hr><button onclick="myfun()"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+</DIV>
+
+
+<h1><span id="years">--</span> years</h1>
+<h1><span id="months">--</span> months</h1>
+<h1><span  id="days">--</span> days</h1>
+</div>
+ </div> 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">A S Poorna</a>.
+  </div>
+  <script src="script.js">  </script>
+</body>
+</html>
