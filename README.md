@@ -15,6 +15,10 @@
 <p>
  <ul>
    <li>Age Calculator</li>
+   <li>Card View</li>
+  <li>Progress Bar</li>
+  <li>Scroll Animation</li>
+  <li>Rock Paper Scissor</li>
  </ul>
   
 </p>
